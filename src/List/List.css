@@ -1,0 +1,60 @@
+.title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 166.182%; /* 4.15456rem */
+  letter-spacing: 0.1125rem;
+  margin-top: 0.44rem;
+  margin-bottom: 0rem;
+}
+.underline {
+  width: 6.875rem;
+  height: 0.1875rem;
+  background: linear-gradient(90deg, #de0000 0%, #6c6ba4 93.14%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.75rem;
+}
+.loading {
+  font-size: 3.25rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  margin-top: 7rem;
+  text-align: center;
+}
+.noTours {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 166.182%; /* 4.15456rem */
+  letter-spacing: 0.1125rem;
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+}
+.fetchTours {
+  color: #fff;
+  border: none;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  letter-spacing: 0.13563rem;
+  border-radius: 0.5rem;
+  background: #149000;
+  text-transform: uppercase;
+  padding: 0.63rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.fetchTours:active{
+    box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, 0.25) inset;
+}
+@media (hover) {
+    .fetchTours:hover{
+            color: #149000;
+            background-color: #fff;
+            border: solid 1px #149000;
+            cursor: pointer;
+        }
+}
